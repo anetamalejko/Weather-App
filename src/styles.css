@@ -145,3 +145,11 @@ p3 {
   color: #000000;
   font-size: 40px;
 }
+.footsy {
+  text-align: center;
+  font-size: 20px;
+  color: #212529;
+  opacity: 55%;
+  padding: 12px;
+  line-height: 2;
+}
