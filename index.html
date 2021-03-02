@@ -26,21 +26,20 @@
                     <input type="submit" class="city" placeholder="Search">
                     <button type="submit" class="city" id="location"> Find me</button>
             </div>
-
+ </form>
             <div class="mb-5">
-
             </div>
-            </form>
+           
             <div class="row">
                 <div class="col first">
                     <h1>Friday, January 15 | 13:30 </h1>
 
                     <h2 id="city">City</h2>
                     <p1>
-                        Sunrise 6:05
+                        Sunrise <span id="sunR"></span>
                     </p1>
                     </br>
-                    <p2>Sunset 18:05</p2>
+                    <p2>Sunset <span id="sunS"></span></p2>
 
                 </div>
                 
@@ -54,17 +53,17 @@
                 <div class="col aboutWeather">
                     <ul>
 
-                        <li class="card-text"> Chance of precipitation 34% 🌦
-                        </li>
-
-                        <li class="card-text"> Wind WSW 16 km/h
-                        </li>
-
-                        <li class="card-text"> Humidity 82%
-                        </li>
-
-                        <li class="card-text"> Pressure 1011 mb
-                        </li>
+                    <li class="card-text"> Real Feel <span id="realFeel"></span>°C
+                    </li>
+                    
+                    <li class="card-text"> Wind WSW <span id="wind"></span>km/h
+                    </li>
+                    
+                    <li class="card-text"> Humidity <span id="humidity"></span>%
+                    </li>
+                    
+                    <li class="card-text"> Pressure <span id="pressure"></span>mb
+                    </li>
 
                     </ul>
                 </div>
