@@ -52,6 +52,8 @@ let humidity = document.querySelector("#humidity");
   pressure.innerHTML = response.data.main.pressure;
   let realFeel = document.querySelector("#realFeel");
   realFeel.innerHTML = Math.round(response.data.main.feels_like);
+  let descriptionEl = document.querySelector("#description");
+  descriptionEl.innerHTML = response.data.weather[0].description;
 
   let sunriseConversion = new Date(response.data.sys.sunrise * 1000);
   hour = sunriseConversion.getUTCHours();
